@@ -1,5 +1,5 @@
 import "./App.css";
-import Logo from "./components/Logo/Logo";
+import Header from "./components/Header/Header";
 import Forecast from "./components/Forecast/Forecast";
 
 function App() {
@@ -7,12 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         SERVICES PROVIDED FOR THE NEEDY!
-        <header className="App-header">
-          
-          <Logo />
-          <h4>Your Location Finder</h4>
-        </header>
+      
       </header>
+      <Header/>
       <main>
         <Forecast />{" "}
       </main>
